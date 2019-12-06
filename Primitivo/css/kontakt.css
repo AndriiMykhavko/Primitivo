@@ -1,0 +1,112 @@
+body{
+	text-align: center;
+}
+.block-oppettider{
+	padding-top: 20px;
+	-ms-transform: rotate(-5deg); 
+	-webkit-transform: rotate(-5deg); 
+	transform: rotate(-5deg);
+}
+.block-rotate{
+	background: #24879f;
+	height: 144px;
+	max-width: 296px;
+	margin: 0 auto;
+	-ms-transform: rotate(5deg); 
+	-webkit-transform: rotate(5deg); 
+	transform: rotate(5deg);
+}
+.block-oppettider h2{
+	font: 21px 'Playball Regular', sans-serif;
+	color: #fff;
+	margin: 0;
+}
+.block-oppettider p{
+	font: 18px 'Marvel Regular', sans-serif;
+	color: #fff;
+	margin: 0;
+}
+.block-under{
+	margin: 20px 20px;
+}
+.block-under p{
+	font: 18px 'Marvel Bold', sans-serif; 
+	margin: 0;
+}
+.kontakt-form{
+	background: url(../img/form.png) no-repeat;
+	background-position: center;
+	padding-top: 20px;
+	min-height: 308px;
+	max-width: 489px;
+	margin: auto;
+}
+.kontakt-form h2{
+	font: 24px 'Playball Regular', sans-serif;
+	color: #fff;
+	margin: 0;
+}
+.kontakt-form input{
+	background-color: #24879f;
+	border: none;
+	border-bottom: 1px solid #105363;
+	margin-bottom: 10px;
+	width: 237px;
+	color: #fff;
+	padding: 7px 11px 0 11px;
+	font: 14px 'Marvel Regular', sans-serif;
+}
+.kontakt-form input:focus,
+.kontakt-form textarea{
+	outline: none;
+}
+input::-webkit-input-placeholder{
+	color: #fff;
+}
+input::-moz-placeholder{
+	color: #fff;
+}
+.kontakt-form textarea{
+	background-color: #19687b;
+	font: 14px 'Marvel Regular', sans-serif;
+	padding: 7px 12px;
+	border: none;
+	color: #fff;
+	resize:none;
+	height: 72px;
+	width: 238px;
+	margin-bottom: 11px;
+}
+textarea::-webkit-input-placeholder{
+	color: #fff;
+}
+textarea::-moz-placeholder{
+	color: #fff;
+}
+.kontakt-form img{
+	width: 150px;
+	height: 36px;
+}
+.kontakt-form button{
+	font: 14px 'Playball Regular', sans-serif;
+	width: 85px;
+	height: 36px;
+	color: #fff;
+	background-color: #10505f;
+	border: none;
+	vertical-align: middle;
+}
+.map{
+	background: url(../img/map.png) no-repeat;
+	height: 233px;
+	background-size: 100%;
+	margin: 20px 0;
+}
+footer{
+	margin: 0;
+}
+@media(max-width: 756px){
+	.map{
+		background-size: cover;
+	}
+}

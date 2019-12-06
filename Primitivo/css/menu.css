@@ -1,0 +1,103 @@
+.container{
+	max-width: 800px;
+}
+ul.nav.nav-tabs{
+	text-align: center;
+}
+.nav-tabs>li{
+	float: none;
+	display: inline-block;
+	margin: 0 auto;
+	width: 150px;
+	margin: 0 0 15px;
+}
+.nav-tabs>li>a{
+	border:none;
+	font: 21px 'Playball Regular', sans-serif;
+	color: #fff;
+	background-image: url(../img/menu-bgrd.png);
+	border:none;
+	border-radius: 0;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li>a:hover{
+	background-color: #105363;
+	color: #fff;
+	background-image: none;
+}
+.nav-tabs{
+	border:0;
+}
+.menu-item{
+	padding: 0 15px;
+	margin: 10px 0;
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.menu-item h1{
+	font: 16px 'Marvel Bold', sans-serif;
+	margin: 0;
+	color: #2b2b2a;
+	text-align: left;
+}
+.menu-item p{
+	font: 14px 'Marvel Regular', sans-serif; 
+	margin: 0;
+}
+.cont-text{
+	width: calc(100% - 100px);
+	float: left;
+}
+.price{
+	width: 100px;
+	float: right;
+	text-align: right;
+}
+.price p{
+	font-size: 16px;
+}
+.hover{
+	width: 100%;
+	float: left;
+	min-height: 60px;
+	padding: 5px;
+}
+.menu-item:hover .hover{
+	background: rgba(36,135,159,0.16);
+}
+.menu-item:hover:before,
+.menu-item:hover:after{
+	background: url(../img/before.png) repeat-y;
+	content: "";
+	display: block;
+	height: 100%;
+	width: 15px;
+	position: absolute;
+	left: 0;
+}
+.menu-item:hover:after{
+	left: auto;
+	right: 0;
+	transform: rotateY(180deg);
+}
+.buy{
+	display: none;
+}
+.menu-item:hover .buy{
+	display: block;
+}
+.menu-img img{
+	display: block;
+	margin: 0 auto;
+}
+footer{
+	margin: 0;
+}
+@media(max-width: 376px){
+	.menu-img img{
+		width: 250px;
+	}
+}

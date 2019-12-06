@@ -1,0 +1,15 @@
+.bocabord{
+	text-align: center;
+	max-width: 288px;
+	margin:auto;
+}
+.bocabord p{
+	font: 14px 'Marvel Regular',sans-serif;
+	color: #24879f;
+}
+.wrapper{
+    margin: 0 auto;
+}
+footer{
+    margin: 0;
+}

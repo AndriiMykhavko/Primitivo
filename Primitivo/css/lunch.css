@@ -1,0 +1,93 @@
+.lunch-background{
+	background: url(../img/skyter.png) no-repeat;
+	background-position: 100% 88%;
+	background-size: 14%;
+}
+.lunch-content{
+	text-align: center;
+	background: url(../img/mark.png) no-repeat;
+}
+.lunch-content h2{
+	font: 21px 'Playball Regular', sans-serif;
+	color: #fff;
+	width: 265px;
+	height: 46px;
+	line-height: 46px;
+	display: block;
+	margin: 0  auto;
+	margin-bottom: 40px;
+	background: url(../img/img-h2.jpg);
+}
+.lunch-content p{
+	font: 14px 'Marvel Regular', sans-serif;
+	color: #24879f;
+}
+.menu-item{
+	padding: 0 15px;
+	margin: 10px 0;
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.menu-item p{
+	font: 18px 'Marvel Bold', sans-serif;
+	margin: 0;
+	color: black;
+	text-align: left;
+}
+.hover{
+	width: 100%;
+	float: left;
+	min-height: 60px;
+	padding: 5px;
+}
+.cont-text{
+	width: calc(100% - 100px);
+	float: left;
+}
+.menu-item:hover .hover{
+	background: rgba(36,135,159,0.16);
+}
+.menu-item:hover:before,
+.menu-item:hover:after{
+	background: url(../img/before.png) repeat-y;
+	content: "";
+	display: block;
+	height: 100%;
+	width: 15px;
+	position: absolute;
+	left: 0;
+}
+.menu-item:hover:after{
+	left: auto;
+	right: 0;
+	transform: rotateY(180deg);
+}
+.buy{
+	display: none;
+}
+.menu-item:hover .buy{
+	display: block;
+}
+.price{
+	width: 100px;
+	float: right;
+	text-align: right;
+}
+.price p{
+	font-size: 16px;
+	text-align: right;
+}
+footer{
+	margin: 0;
+}
+@media(max-width: 1200px){
+	.lunch-background{
+		background: #f4ece1;
+	}
+}
+@media(max-width: 565px){
+	.lunch-content{
+		background-size: 17%;
+	}
+}

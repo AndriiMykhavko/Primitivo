@@ -1,0 +1,14 @@
+.menu-item p{
+	font-family: 'Marvel Bold';
+}
+.botl img{
+	display: block;
+	margin: auto;
+}
+.menu-item:hover:before,
+.menu-item:hover:after{
+	display: none;
+}
+.menu h1{
+	margin: 0;
+}

@@ -1,0 +1,154 @@
+html, body{
+	min-height: 100%;
+}
+h1{
+	font: 36px 'Playball Regular', sans-serif;
+	color: #24879f;
+	text-align: center;
+}
+.navbar{
+	margin-bottom: 0;
+	z-index: 101;
+	height: 68px;
+	min-height: 68px;
+}
+.container{
+	position: relative;
+}
+header{
+	background-color: #24879f;
+	border-bottom: 4px solid #105363;
+}
+.navbar.navbar-default button{
+	float: left;
+	margin:17px 0 5px 20px;
+}
+.navbar.navbar-default button:hover,
+.navbar.navbar-default button:focus{
+	background-color: #105363;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+.collapse.navbar-collapse{
+	text-align: center;
+}
+.navbar-default{
+	background-color: transparent;
+	border: none;
+}
+.navbar.navbar-default img{
+	margin-top: -20px;
+}
+ul.nav.navbar-nav{
+	float: none;
+	display: inline-block;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:before,
+.navbar-default .navbar-nav>.active>a:after{
+	background-color: transparent;
+	color: #151819;
+	padding-top: 25px;
+	content: '-';
+}
+.navbar-default .navbar-nav>li>a{
+	color: #f4ece0;
+	text-transform: uppercase;
+	font: 16px 'Marvel Bold', sans-serif;
+	padding: 25px 15px;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form{
+	border-color: #105363;
+}
+.hidden-img{
+	display: none;
+}
+.soc-butt{
+	position: absolute;
+	top: 27px;
+	right: 30px;
+}
+.soc-butt i{
+	font-size: 18px;
+	color: #fff;
+}
+.soc-butt i:hover{
+	color: #ccc;
+}
+.carousel-inner{
+	height: calc(100vh - 75px);
+}
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img{
+	width: auto;
+	min-height: 100vh;
+	min-width: 100vw;
+	max-width: none;
+}
+footer{
+	position: relative;
+	height: 63px;
+	margin-top: -60px;
+	background-image: url(../img/footer.png);
+}
+footer p{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	width: 100%;
+	font: 14px 'Marvel Regular', sans-serif;
+	color: #f0f7f9;
+	margin: 0
+}
+@media(max-width: 940px){
+	.navbar-default .navbar-nav>li>a{
+		padding: 25px 5px;
+	}
+	.soc-butt{
+		right: 5px;
+	}
+}
+@media(max-width: 767px){
+	.navbar.navbar-default{
+		height: auto;
+	}
+	ul.nav.navbar-nav{
+		display: block;
+	}
+	.navbar.navbar-default img{
+		margin: 10px;
+		z-index: 1;
+		position: relative;
+	}
+	.hidden-img{
+		display: block;
+		text-align: center;
+		height: 68px;
+	}
+	.navbar-default .navbar-collapse {
+		text-align: center;
+	}
+	.navbar-default .navbar-nav>.active>a,
+	.navbar-default .navbar-nav>.active>a:focus,
+	.navbar-default .navbar-nav>.active>a:hover,
+	.navbar-default .navbar-nav>.active>a:before,
+	.navbar-default .navbar-nav>.active>a:after,
+	.navbar-default .navbar-nav>li>a{
+		padding:15px;
+	}
+	.navbar-nav{
+		margin: 0 -15px;
+	}
+}
+@media(max-width: 430px){
+	.navbar.navbar-default img{
+		width: 190px;
+		margin-top: 20px;
+		margin-left: 0;
+	}
+}
